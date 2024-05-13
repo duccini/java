@@ -6,8 +6,9 @@ public class curiosidadeInt {
         int var1 = 2147483647;
         // valor máximo do inteiro
         // o proximo valor é o valor inteiro minimo, funcionando como uma roleta -2147483647
-        int var2 = 100;
+        Double var2 = 100d;
 
         System.out.println(var1 + var2);
+        System.out.println(var2.getClass());
     }
 }
