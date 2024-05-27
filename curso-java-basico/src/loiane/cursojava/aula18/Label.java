@@ -23,7 +23,7 @@ public class Label {
         // encontrar todos os numeros no intervalo que não são divisiveis por 7
         for(int i = num; i <= max; i++) {
             if(i % 7 == 0) {
-                continue;
+                continue; // trabalhado mais com for alinhados
             }
             System.out.println("Os números que não são divisíveis por 7 são: " + i);
         }
