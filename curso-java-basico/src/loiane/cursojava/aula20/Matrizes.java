@@ -2,7 +2,7 @@ package loiane.cursojava.aula20;
 
 public class Matrizes {
     public static void main (String[] args) {
-        double[][] notasAlunos = new double[30][4]; // 30 alunos, 4 notas
+        double[][] notasAlunos = new double[2][4]; // 30 alunos, 4 notas
 
         notasAlunos[0][0] = 10;
         notasAlunos[0][1] = 7;
