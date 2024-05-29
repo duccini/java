@@ -1,4 +1,4 @@
-package loiane.cursojava.aula26;
+package loiane.cursojava.aula27;
 
 public class Carro {
 
@@ -9,6 +9,7 @@ public class Carro {
     double capCombustivel;
     double consumoCombustivel;
 
+    // Métodos
     void exibirAutonomia() {
         System.out.println("A autonomia do carro é: " + capCombustivel * consumoCombustivel + " km.");
     }
@@ -18,4 +19,7 @@ public class Carro {
         return capCombustivel * consumoCombustivel;
     }
 
+    double calcularCombustivel(double km) {
+        return km / consumoCombustivel;
+    }
 }

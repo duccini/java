@@ -1,4 +1,4 @@
-package loiane.cursojava.aula26;
+package loiane.cursojava.aula27;
 
 public class TesteCarro {
 
@@ -16,5 +16,8 @@ public class TesteCarro {
 
         double autonomia = van.obterAutonomia();
         System.out.println(autonomia);
+
+        double gastoCombustivel = van.calcularCombustivel(10);
+        System.out.println("O gasto de combustível em 10km é " + gastoCombustivel);
     }
 }
