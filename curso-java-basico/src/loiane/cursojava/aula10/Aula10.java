@@ -5,7 +5,11 @@ public class Aula10 {
         int num = 10;
         String nome = "Gui";
 
+        int numa = 10;
+        double numb = 20d;
 
-        System.out.println(("Hello World: " + nome));
+        double res = numa + numb;
+
+        System.out.println(res);
     }
 }

@@ -1,10 +1,12 @@
 package loiane.cursojava.aula12;
 
+import java.util.Locale;
 import java.util.Scanner;
+
 
 public class LeituraDadosTeclado {
     public static void main (String[] args) {
-        Scanner scan = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in).useLocale(Locale.US);
 
         double alt;
 
