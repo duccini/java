@@ -1,7 +1,4 @@
 package programarcomvoce.exercicios.lista1;
 
-public class Exercicio3 {
-
-
-
+public class Exercicio12 {
 }
